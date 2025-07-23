@@ -107,6 +107,73 @@ nav ul li{
     line-height: 150%;
 }
 
+/* Latests Deals section styles */
+.latest-deals{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.deal-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #000000;
+}
+.latest-deals p{
+    margin-bottom: 120px;
+}
+.three-flowers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bloom{
+    background-image: url("../assets/deal-bloom.png");
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blan-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.zabo{
+    background-image: url("../assets/deal-zabo.png");
+    grid-row: span 2;
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zabo-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+#shop{
+    font-weight: 600;
+    color: #FFFFFF;
+}
+#zabo{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.ana{
+    background-image: url("../assets/deal-ana.png");
+    width: 367px;
+    height: 197px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 /* Plant Lover section styles */
 .plant-lover{
     display: flex;
@@ -114,12 +181,20 @@ nav ul li{
     margin-bottom: 133px;
 }
 .lover-left{
-    flex: 1;
+    /* flex: 1; */
     height: 597px;
     width: 540px;
 }
+
+.badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    margin-top: -130px;
+    margin-left: 340px;
+}
 .lover-right{
-    flex: 1;
+    /* flex: 1; */
     width: 540px;
     height: 521px;
     margin-top: 35px;
@@ -181,7 +256,7 @@ button {
 .footer{
     /* margin-bottom: 100px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .one p{
     margin-top: 16px;
