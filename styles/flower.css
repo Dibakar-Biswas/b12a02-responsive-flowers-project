@@ -141,7 +141,7 @@ nav ul li{
 .join{
     background-image: url("../assets/news-letter-bg.png");
     height: 533px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     /* align-content: center; */
     display: flex;
     flex-direction: column;
@@ -175,4 +175,32 @@ button {
     padding: 20px 40px;
     background: #E95A08;
     color: #FFFFFF;
+}
+
+/* Footer section styles */
+.footer{
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+.one p{
+    margin-top: 16px;
+    width: 359px;
+    font-size: 1.325rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+ul li a{
+    text-decoration: none;
+}
+
+.two ul li{
+    margin-bottom: 32px;
+    list-style: none;
+}
+.three ul li{
+    margin-bottom: 32px;
+    list-style: none;
+}
+.four img{
+    margin-right: 24px;
 }
