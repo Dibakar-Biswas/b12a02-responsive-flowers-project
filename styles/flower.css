@@ -348,4 +348,65 @@ ul li a{
         flex-direction: column;
         margin-top: 20px;
     }
+
+
+    .latest-deals{
+        width: 570px;
+        margin-top: 140px;
+    }
+    .latest-deals p{
+        padding: 0 17px;
+        margin-left: 10px;
+        width: 535px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    img{
+        width: 100%;
+    }
+    .latest-deals > sub-section > div{
+        background-repeat: no-repeat;
+        width: 520px;
+        background-size:cover ;
+        height: 260px;
+    }
+    .latest-deals > sub-section{
+        padding: 25px;
+        gap: 20px;
+    }
+    .bloom{
+        margin-bottom: 20px;
+        order: 1;
+    }
+    .zabo{
+        margin-top: 20px;
+        order: 3;
+    }
+    .ana{
+        /* margin-top: 20px; */
+        order: 2;
+    }
+    .three-flowers h4{
+        width: 520px;
+        font-size: 2.2rem;
+    }
+    .three-flowers a{
+        width: 520px;
+        font-size: 1.5rem;
+    }
+    .three-flowers{
+        grid-template-columns: 1fr;
+    }
+
+
+    .join{
+        width: 570px;
+    }
+    .join h2{
+        font-size: 1.7rem;
+    }
+    .mail{
+        margin-top: 23px;
+        width: 480px;
+    }
 }
