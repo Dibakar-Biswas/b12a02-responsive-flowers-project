@@ -409,4 +409,17 @@ ul li a{
         margin-top: 23px;
         width: 480px;
     }
+
+    .footer{
+        flex-direction: column;
+        padding: 35px 30px;
+    }
+    .one p{
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+    }
 }
