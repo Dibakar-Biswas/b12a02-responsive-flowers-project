@@ -290,3 +290,62 @@ ul li a{
 .four img{
     margin-right: 24px;
 }
+
+/* Responsive for Mobile devices */
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #hide{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+        margin: 30px 20px;
+        width: 530px;
+        /* gap: 80px; */
+    }
+    .header div img{
+        height: 45px;
+        width: 65px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        max-width: 570px;
+        margin-bottom: 40px;
+    }
+    .banner-left{
+        width: 520px;
+        margin: 20px 20px;
+    }
+    .banner-title{
+        margin-bottom: 5px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .plant{
+        width: 570px;
+        text-align: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    .flower-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /* padding: 10px; */
+    }
+
+    .plant-lover{
+        width: 570px;
+        padding: 15px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
