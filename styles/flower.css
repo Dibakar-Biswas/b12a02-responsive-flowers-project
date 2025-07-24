@@ -23,6 +23,12 @@ img {
     margin: auto;
 }
 /* Header section styles */
+.what{
+    color: #252432;
+}
+.apps{
+    color: #8987A1;
+}
 .header{
     display: flex;
     flex-direction: row;
@@ -52,6 +58,12 @@ nav ul li{
     font-size: 4rem;
     font-weight: 700;
     color: #000000;
+}
+.banner-left h2{
+    margin-top: 10px;
+}
+.banner-left p{
+    margin-top: 25px;
 }
 #fresh{
     color: #E95A08;
@@ -278,11 +290,14 @@ button {
 ul li a{
     text-decoration: none;
 }
+.footer li a{
+    color: #6B7280;
+}
 
 .two ul li{
     margin-bottom: 32px;
     list-style: none;
-}
+}    
 .three ul li{
     margin-bottom: 32px;
     list-style: none;
@@ -290,6 +305,7 @@ ul li a{
 .four img{
     margin-right: 24px;
 }
+
 
 /* Responsive for Mobile devices */
 
@@ -335,6 +351,7 @@ ul li a{
         text-align: center;
         gap: 20px;
         padding: 10px;
+        margin-bottom: 50px;
     }
     .flower-card-container{
         grid-template-columns: repeat(2, 1fr);
